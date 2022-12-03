@@ -1,6 +1,6 @@
 # Ra
 Takes a frequency and returns the relative BPM
 
-RaMax provides the calculations
+RaMax.py provides the calculations
 
-Ra returns the BPM only
+Ra.py returns the BPM only
