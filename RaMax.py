@@ -8,7 +8,7 @@ def Convert():
     else:
         print("must be a digit.")
     Note2BPM = Hz * 60
-    print(f'x60 = {Note2BPM}')
+    print(f'x60 {Note2BPM}')
     return Note2BPM
 
 
@@ -16,10 +16,11 @@ def GiveBPM(x):
     BPM = int(x)
     while BPM > 100:
         BPM = BPM/2
-        #print(f'x/2{BPM}')
+        print(f'x/2{BPM}')
     else:
+        print(f'BPM is {BPM}')
         return BPM
-        #print(f'BPM is {BPM}')
+
 
 def MakeUsable(y):
     RealBPM = float(y)
@@ -27,7 +28,7 @@ def MakeUsable(y):
         RealBPM = RealBPM*2
     else:
         RealBPM = round(RealBPM)
-        print(f'{RealBPM}bpm')
+        print(f'x2 = {RealBPM}bpm')
         return RealBPM
 
 
